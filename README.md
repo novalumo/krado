@@ -1,6 +1,6 @@
 # Krado - A New CSS Framework
 
-**Latest version: 0.1 Beta**
+**Latest version: 0.0.1 Beta**
 
 ## Overview
 
