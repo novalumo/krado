@@ -2988,7 +2988,6 @@ input[type="button"].btn-block {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 1.5rem;
 }
 
 .dropdown-menu-left {
@@ -3144,7 +3143,6 @@ input[type="button"].btn-block {
   white-space: nowrap;
   background-color: transparent;
   border: 0;
-  border-radius: .8rem;
 }
 .dropdown-item:hover, .dropdown-item:focus {
   color: #16181b;
@@ -3932,8 +3930,6 @@ input[type="button"].btn-block {
 
 .navbar {
   position: relative;
-  margin: 10px;
-  border-radius: 15px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
