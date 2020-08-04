@@ -2,6 +2,18 @@
 
 **Latest version: 0.0.1 Beta**
 
+## How to compile SCSS to CSS
+
+```bash
+sass krado.scss:krado.css --style expanded --watch
+```
+
+### --style option
+
+* expanded: default CSS style
+* nested: default value, nested
+* compressed: compressed
+
 ## Overview
 
 This is an original Novalumo's CSS framework project. Krado means "Grid" or "Framework" in Esperanto. Krado is made based on [Bootstrap](https://getbootstrap.com/). These CSS files are using on websites made by Novalumo.
