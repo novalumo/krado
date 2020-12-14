@@ -5,7 +5,7 @@
 ## How to compile SCSS to CSS
 
 ```bash
-sass krado.scss:krado.css --style expanded --watch
+sass krado.scss:compiled/krado.css --style expanded --watch
 ```
 
 ### --style option

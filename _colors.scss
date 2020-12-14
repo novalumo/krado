@@ -1,0 +1,40 @@
+/* -------------------- */
+/*      Main Colors     */
+/* -------------------- */
+$primary:   #0d6efd;
+$secondary: #6c757d;
+$success:   #198754;
+$danger:    #dc3545;
+$warning:   #ffc107;
+$info:      #0dcaf0;
+$light:     #f8f9fa;
+$black:     #212529;
+
+/* -------------------- */
+/*   Additional Colors  */
+/* -------------------- */
+
+
+$colors:
+(
+  "primary":   $primary,
+  "secondary": $secondary,
+  "success":   $success,
+  "danger":    $danger,
+  "info":      $info,
+  "light":     $light,
+  "black":     $black,
+);
+
+/* -------------------- */
+/*        Classes       */
+/* -------------------- */
+
+@each $key, $color in $colors {
+    .bg-#{$key} {
+        background-color: $color;
+    }
+    .txt-#{$key} {
+        color: $color;
+    }
+}
