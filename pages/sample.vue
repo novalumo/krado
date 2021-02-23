@@ -16,7 +16,7 @@ export default {
     return {
       title: 'Krado - The Best CSS Framework Ever.',
       link: [
-        { rel: 'stylesheet', href: '/krado_dev/krado.css' }
+        { rel: 'stylesheet', href: '/develop/krado.css' }
       ]
     }
     
