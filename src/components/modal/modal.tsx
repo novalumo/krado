@@ -1,6 +1,6 @@
 'use client';
-import { cn } from '@/lib/cn';
-import { Button } from '@/components/common/button/button';
+// import { cn } from '@/lib/cn';
+// import { Button } from '@/components/button/button';
 
 export const Modal = ({ className }: { className?: string }) => {
   return (
@@ -17,8 +17,8 @@ export const Modal = ({ className }: { className?: string }) => {
               laudantium facere corrupti fugiat qui exercitationem hic?
             </p>
             <div className="flex flex-row gap-3">
-              <Button>Yes</Button>
-              <Button>No</Button>
+              <button type="button">Yes</button>
+              <button type="button">No</button>
             </div>
           </div>
         </div>
