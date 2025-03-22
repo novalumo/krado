@@ -7,7 +7,22 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "ignore": ["dist", "node_modules", "storybook-static"]
+    "ignore": [
+      ".husky/",
+      ".idea/",
+      ".next/",
+      ".open-next/",
+      ".vercel/",
+      ".wrangler/",
+      "node_modules/",
+      "out/",
+      "playwright-report/",
+      "public/",
+      "dist/",
+      "build/",
+      "test-results/",
+      "storybook-static/"
+    ]
   },
   "formatter": {
     "enabled": true,
@@ -24,6 +39,9 @@
   },
   "javascript": {
     "formatter": {
+      "jsxQuoteStyle": "double",
+      "trailingCommas": "all",
+      "semicolons": "always",
       "quoteStyle": "single"
     }
   }
