@@ -1,6 +1,6 @@
 {
   "name": "@novalumo/krado",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": "git://github.com/novalumo/krado.git",
   "main": "dist/krado.umd.js",
   "module": "dist/krado.es.js",
