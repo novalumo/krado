@@ -2,9 +2,16 @@
 import { cn } from '@/lib/cn';
 import { Tag } from '@/components/common/tag/tag';
 import { formatDate } from '@/lib/datetime';
-import type { News } from '@/models/News';
 import { motion } from 'motion/react';
 import Link from 'next/link';
+
+type News = {
+  id: string;
+  title: string;
+  publishedAt: string;
+  category: { id: string; name: string; createdAt: string; updatedAt: string };
+  tags: { id: string; name: string }[];
+};
 
 export const SimpleNewsCard = ({
   content,
@@ -57,7 +64,7 @@ export const SimpleNewsCard = ({
           {/* tags */}
           {content.tags && content.tags.length !== 0 && (
             <div className="mt-1 inline-flex flex-wrap gap-0.5 text-xs">
-              {content.tags.map((tag) => (
+              {content.tags.map((tag: { id: string; name: string }) => (
                 <Tag key={tag.id} id={tag.id} name={tag.name} />
               ))}
             </div>

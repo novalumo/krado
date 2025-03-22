@@ -1,9 +1,19 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { NewsArticleMock } from '@/tests/mocks/news';
 import { SimpleNewsCard } from './simple-news-card';
 
 const now = new Date().toISOString();
+
+const NewsArticleMock = {
+  id: '1',
+  title: 'ニュース記事のタイトル',
+  publishedAt: now,
+  category: { id: '1', name: 'ニュース', createdAt: now, updatedAt: now },
+  tags: [
+    { id: '1', name: 'タグ1' },
+    { id: '2', name: 'タグ2' },
+  ],
+};
 
 const meta = {
   title: 'SimpleNewsCard',
